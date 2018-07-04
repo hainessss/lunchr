@@ -36,7 +36,7 @@ for linux.
 
 # Retrospective
 
-One design decision I made very early on was that I would use the full extent of the SF Data api to query and page the results.  This is the same approach I would have used if I was building a web application as it allows for very client friendly load and render times. The data set has a little over 3000 rows, enough that I would not want to load and render all of them on a mobile or memory restricted web client.  However, in retrospective, for a CLI which could easily handle this load it would have been much faster to get them all and transform the data as opposed to learning the intricacies of the Data SF API.
+One design decision I made very early on was that I would use the full extent of the SF Data api to query and page the results.  This is the same approach I would have used if I was building a web application as it allows for very client friendly load and render times. The data set has a little over 3000 rows, enough that I would not want to load and render all of them on a mobile or memory restricted web client.  However, in retrospect, for a CLI, which could easily handle this load; it would have been much faster to get all the records and transform the data as opposed to learning the intricacies of the Data SF API.
 
 Improvements for a web version might include:
 
