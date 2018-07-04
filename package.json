@@ -4,8 +4,8 @@
   "description": "Find your next lunch",
   "main": "index.js",
   "scripts": {
-    "build:macos": "pkg index.js --target node10-macos-x64 --output lunchr-macos.exe",
-    "build:linux": "pkg index.js --target node10-linux-x64 --output lunchr-linux.exe"
+    "build:macos": "pkg index.js --target node10-macos-x64 --output lunchr-macos",
+    "build:linux": "pkg index.js --target node10-linux-x64 --output lunchr-linux"
   },
   "author": "Alex Haines",
   "license": "ISC",
