@@ -1,0 +1,15 @@
+{
+  "name": "lunchr",
+  "version": "0.0.1",
+  "description": "Find your next lunch",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Alex Haines",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "querystring": "^0.2.0",
+    "request": "^2.87.0"
+  }
+}
