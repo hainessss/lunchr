@@ -40,6 +40,6 @@ One design decision I made very early on was that I would use the full extent of
 
 Improvements for a web version might include:
 
-1.) The separation of state to a standalone service/data structure i.e. Redux.
+1.) The separation of state to a standalone service/data structure i.e. Redux. As well as storing the results of queries in memory to avoid redundant calls.
 2.) The separation of data transformation and rendering, both of which are basically handled in `displayResponse.js`. This would be analogous to React as the render layer and a functional layer focused on transforming data in way that is easily consumed by React. (This can also be done server-side)
 
