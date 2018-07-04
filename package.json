@@ -3,12 +3,16 @@
   "version": "0.0.1",
   "description": "Find your next lunch",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build:macos": "pkg index.js --target node10-macos-x64 --output lunchr-macos.exe",
+    "build:linux": "pkg index.js --target node10-linux-x64 --output lunchr-linux.exe"
+  },
   "author": "Alex Haines",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.1",
     "clear": "^0.1.0",
+    "pkg": "^4.3.3",
     "querystring": "^0.2.0",
     "request": "^2.87.0"
   }
